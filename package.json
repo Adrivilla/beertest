@@ -1,0 +1,24 @@
+{
+  "name": "frontend-project",
+  "version": "0.0.1",
+  "description": "Test maquetacion frontend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrivilla/beertest.git"
+  },
+  "author": "Adrian Villacorta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrivilla/beertest/issues"
+  },
+  "homepage": "https://github.com/Adrivilla/beertest#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "jshint": "^2.9.5"
+  }
+}

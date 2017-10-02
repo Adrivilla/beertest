@@ -1,0 +1,17 @@
+{
+  "name": "frontend-project",
+  "description": "Test maquetacion frontend",
+  "main": "",
+  "authors": [
+    "Adrian Villacorta"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Adrivilla/beertest",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
