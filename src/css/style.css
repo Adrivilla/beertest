@@ -1,5 +1,229 @@
-.content
-.content {
-	padding: 1em;
-	background: #ccc;
+header .cliente .origen .buscador {
+	max-width: 146px;
+	float: right;
+	height: 45px;
+	line-height: 40px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-left: 10px;
+	position: relative;
+}
+
+
+
+footer .container {
+	border-top: 1.2em solid #653334;
+	background-color: #402020;
+	height: 5.5em;
+	margin-top: 100px;
+}
+
+footer p {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75rem;
+	padding-top: 20px;
+}
+
+.barraNavegacion li a {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+.barraNavegacion li {
+	line-height: 15px !important;
+}
+
+li a:hover {
+	border: 0;
+	text-decoration: none;
+}
+
+nav .barraNavegacion{
+	background-color: #653334;
+	display: table;
+	list-style: none;
+	margin: 0;
+	table-layout: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.barraNavegacion {
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+.barraNavegacion li {
+	display: table-cell !important;
+}
+
+nav .navSelec {
+	background-color: #402020;
+}
+
+.informativo {
+	padding-top: 25px;
+	padding-left: 0p
+	x;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.informativo h1 {
+	font-size: 21px;
+	margin-bottom: 0px;
+}
+
+.informativo p {
+	color: #666666;
+	font-size: 11px;
+	font-weight: lighter;
+}
+
+.informativo .infoDer p.titular {
+	color: #005591;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.informativo .infoDer .media-body {
+	text-align: right;
+	margin-right: 15px;
+}
+
+.card-body {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+.card-body p {
+	font-size: 14px;
+}
+
+.card-body i {
+	min-width: 14px;
+}
+
+.card-footer {
+	background-color: white;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+.precioContenedor {
+	display: inline;
+	color: #dc6016;
+	font-size: 11px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btnContenedor {
+	display: inline;
+}
+
+.btnContenedor .btn-primary {
+	background-color: #dc6016;
+	border-color: #dc6016;
+}
+
+.precioContenedor span {
+	display: block;
+	font-size: 20px;
+}
+
+.carrousel .col-sm-auto {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.carrousel {
+	margin-top: 15px;
+}
+
+.selectCarrousel .barraNavegacion{
+	display: table;
+	list-style: none;
+	margin: 0;
+	table-layout: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.selectCarrousel {
+	margin-top: 20px;
+	padding-left: 110px;
+	padding-right: 110px;
+}
+.separadorCarrousel {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.selectCarrousel a {
+	line-height: 20px;
+	color: #999999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+.selectCarrousel a.activa {
+	border-bottom: 4px solid #653334;
+	color: black;
+}
+
+header .row {
+	background-color: #402020 !important;
+}
+
+header .encabezado {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+header .encabezado .row {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header .form-inline {
+	padding-top: 10px;
+}
+
+.fa-map-marker, .fa-user {
+	color: white;
+}
+
+.headerText {
+	font-family: 'Roboto', sans-serif;
+	line-height: 15px;
+	font-size: 12px;
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.headerText span{
+	font-size: 10px;
+}
+
+.ciudadOrigen, 
+.usuarioCliente {
+	padding-top: 10px;
+	border-left: 1px solid #573b3b;
+}
+
+.fa-chevron-down {
+	padding-left: 5px;
+}
+
+.logo {
+	padding-left: 90px;
+	padding-right: 0px;
 }

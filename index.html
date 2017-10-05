@@ -1,10 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Beertest</title>
-</head>
-<body>
-	<h1>Repositorio Beertest</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="dist/resource/css/main.css" rel="stylesheet">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="dist/resource/css/style.css" rel="stylesheet">
+    <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+	<header>
+
+		<div class="container encabezado justify-content-center">
+			<div class="row">
+				<div class="col-12 col-md-3 logo">
+					<img src="http://via.placeholder.com/220x55" alt="Imagen placeholder del logo"></img>
+				</div> <!-- /LOGO -->
+				<div class="col-0 col-md-5">
+					<div class="form-inline justify-content-center">
+						<div class="form-group">
+							<select class="form-control" id="filtroBuscador">
+								<option>Toda la web</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+						<div class="input-group">
+							<input class="form control">
+							<div class="input-group-addon"><i class="fa fa-search"></i></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-0 col-md-2 ciudadOrigen">
+					<div class="float-left icono"><i class="fa fa-map-marker"></i></div>
+					<div><p class="headerText"><span>Mi origen es 
+					</span><br>Palma de Mallorca</p></div>
+				</div>
+				<div class="col-0 col-md-2 usuarioCliente">
+					<div class="float-left icono"><i class="fa fa-user"></i></div>
+					<div><p class="headerText"><span>Hola, accede a 
+					</span><br>Mi Cuenta<i class="fa fa-chevron-down" aria-hidden="true"></i></p></div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container menuNavegacion">
+			<nav>
+				<ul class="barraNavegacion">
+					<li class="navSelec align-middle"><a href="">Todas las cervezas</a></li>
+					<li class="align-middle"><a href="">Menu 01</a></li>
+					<li class="align-middle"><a href="">Menu 02</a></li>
+					<li class="align-middle"><a href="">Menu 03</a></li>
+					<li class="align-middle"><a href="">Menu 04</a></li>
+					<li class="align-middle"><a href="">Menu 05</a></li>
+					<li class="align-middle"><a href="">Menu 06</a></li>
+					<li class="align-middle"><a href="">Menu 07</a></li>
+					<li class="align-middle"><a href="">Menu 08</a></li>
+					<li class="align-middle"><a href="">Menu 09</a></li>
+					<li class="align-middle"><a href="">Menu 10</a></li>
+					<li class="align-middle"><a href="">Menu 11</a></li>
+				</ul>
+			</nav> 
+		</div> <!-- /NAVEGACION -->
+	</header> <!-- /HEADER -->
+		
+
+    <div class="container">
+    	<img src="dist/resource/images/banner.jpg" class="img-fluid" alt="Imagen del banner con cervezas">
+    </div> <!-- /BANNER -->
+
+	<div class="container informativo">
+		<div class="row justify-content-center">
+			<div class="col-5 infoIzq">
+				<div class="media">
+					<img class="d-flex align-self center mr-3" src="http://via.placeholder.com/55x55" alt="Placeholder imagen">
+					<div class="media-body">
+						<h1 class="mt-0">Lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-5 infoDer">
+				<div class="media">
+					<div class="media-body">
+						<p class="titular">Lorem ipsum</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<img class="d-flex align-self center mr-3" src="http://via.placeholder.com/55x55" alt="Placeholder imagen">
+				</div>
+			</div>
+		</div>
+	</div> <!-- /INFORMATIVO -->
+
+	  <section>
+
+		<div class="container selectCarrousel">
+			<div class="row separadorCarrousel">
+				<nav class="nav">
+			  		<a class="nav-link activa" href="#">Destacadas</a>
+			  		<a class="nav-link" href="#">Suaves</a>
+			  		<a class="nav-link" href="#">Fuertes</a>
+				</nav>
+			</div>
+		</div> <!-- /SELECT CARROUSEL -->
+
+	  	<div class="container carrousel">
+  			<div class="row justify-content-center">
+			  <div class="col-sm-auto">
+			    <div class="card">
+				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <div class="card-body">
+				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
+				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
+				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				    </div>
+				    <div class="card-footer">
+				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
+				    <div class="btnContenedor"><a href="#" class="btn btn-primary float-right">action</a></div>
+				    </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-auto">
+			    <div class="card">
+				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <div class="card-body">
+				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
+				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
+				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				    </div>
+				    <div class="card-footer">
+				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
+				    <div class="btnContenedor"><a href="#" class="btn btn-primary float-right">action</a></div>
+				    </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-auto">
+			    <div class="card">
+				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <div class="card-body">
+				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
+				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
+				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				    </div>
+				    <div class="card-footer">
+				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
+				    <div class="btnContenedor"><a href="#" class="btn btn-primary float-right">action</a></div>
+				    </div>
+				  </div>
+			  </div>
+			  <div class="col-sm-auto">
+			    <div class="card">
+				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <div class="card-body">
+				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
+				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
+				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				    </div>
+				    <div class="card-footer">
+				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
+				    <div class="btnContenedor"><a href="#" class="btn btn-primary float-right">action</a></div>
+				    </div>
+				  </div>
+			  </div>
+			</div>
+		</div> <!-- /CARROUSEL -->
+	  </section>
+
+      <footer>
+      	<div class="container align-text-bottom">
+      		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis pharetra purus, eu tempor ligula cursus id.</p>
+      	</div>
+      </footer> <!-- /FOOTER -->
+
+  </body>
 </html>

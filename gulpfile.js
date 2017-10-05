@@ -4,6 +4,8 @@ var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
 var jshint = require('gulp-jshint');
 
+var sass_files = 'src/sass/*.scss';
+
 gulp.task('js', function() {
 	gulp.src('src/javascript/logic.js')
 		.pipe(jshint())
@@ -12,6 +14,7 @@ gulp.task('js', function() {
 		.pipe(browserSync.stream())
 });
 
+
 gulp.task('css', function() {
 	gulp.src('src/css/style.css')
 		.pipe(cleanCSS())
@@ -19,12 +22,15 @@ gulp.task('css', function() {
 		.pipe(browserSync.stream());
 });
 
+
+
 gulp.task('sass', function() {
-	gulp.src('src/sass/style.scss')
-		.pipe(sass({outputStyle: 'compressed'}))
+	return gulp.src(sass_files)
+		.pipe(sass({outputStyle: 'nested'}).on('error', sass.logError))
 		.pipe(gulp.dest('dist/resource/css'))
 		.pipe(browserSync.stream());
 });
+
 
 gulp.task('serve', function() {
 	browserSync.init({
@@ -32,8 +38,8 @@ gulp.task('serve', function() {
 	});
 });
 
-gulp.task('default', ['serve', 'js', 'sass', 'css'], function() {
-	gulp.watch('src/sass/*.scss', ['sass']);
+gulp.task('default', ['serve', 'js', 'sass'], function() {
+	gulp.watch(sass_files, ['sass']);
 	gulp.watch('src/css/style.css', ['css']);
 	gulp.watch('./*.html').on('change', browserSync.reload);
 });
