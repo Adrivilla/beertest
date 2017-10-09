@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Maquetacion Prueba</title>
 
     <!-- Bootstrap core CSS -->
     <!--<link href="dist/resource/css/main.css" rel="stylesheet">-->
@@ -13,6 +13,16 @@
     <!-- Custom styles for this template -->
     <link href="dist/resource/css/style.css" rel="stylesheet">
     <link href="bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    
+
+    <script type="text/javascript">
+    	//window.onload = ;
+
+
+    </script>
 
   </head>
 
@@ -107,9 +117,9 @@
 		<div class="container selectCarrousel">
 			<div class="row separadorCarrousel">
 				<nav class="nav">
-			  		<a class="nav-link activa" href="#">Destacadas</a>
-			  		<a class="nav-link" href="#">Suaves</a>
-			  		<a class="nav-link" href="#">Fuertes</a>
+			  		<a class="nav-link activa" href="#" id="car-menu-01">Destacadas</a>
+			  		<a class="nav-link" href="#" id="car-menu-02">Suaves</a>
+			  		<a class="nav-link" href="#" id="car-menu-03">Fuertes</a>
 				</nav>
 			</div>
 		</div> <!-- /SELECT CARROUSEL -->
@@ -118,11 +128,11 @@
   			<div class="row justify-content-center">
 			  <div class="col-sm-auto">
 			    <div class="card">
-				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <img id="img-product-01" class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
 				    <div class="card-body">
-				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
-				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
-				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				      <p><i class="fa fa-beer"></i>&nbsp;<span id="text-product-name-01">Cerveza</span></p>
+				      <p><i class="fa fa-info"></i>&nbsp;<span id="text-product-alcohol-01">Graduacion</span></p>
+				      <p><i class="fa fa-home"></i>&nbsp;<span id="text-product-brewer-01">Fabrica</span></p>
 				    </div>
 				    <div class="card-footer">
 				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
@@ -132,11 +142,11 @@
 			  </div>
 			  <div class="col-sm-auto">
 			    <div class="card">
-				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <img id="img-product-02" class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
 				    <div class="card-body">
-				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
-				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
-				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				      <p><i class="fa fa-beer"></i>&nbsp;<span id="text-product-name-02">Cerveza</span></p>
+				      <p><i class="fa fa-info"></i>&nbsp;<span id="text-product-alcohol-02">Graduacion</span></p>
+				      <p><i class="fa fa-home"></i>&nbsp;<span id="text-product-brewer-02">Fabrica</span></p>
 				    </div>
 				    <div class="card-footer">
 				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
@@ -146,11 +156,11 @@
 			  </div>
 			  <div class="col-sm-auto">
 			    <div class="card">
-				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <img id="img-product-03" class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
 				    <div class="card-body">
-				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
-				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
-				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				      <p><i class="fa fa-beer"></i>&nbsp;<span id="text-product-name-03">Cerveza</span></p>
+				      <p><i class="fa fa-info"></i>&nbsp;<span id="text-product-alcohol-03">Graduacion</span></p>
+				      <p><i class="fa fa-home"></i>&nbsp;<span id="text-product-brewer-03">Fabrica</span></p>
 				    </div>
 				    <div class="card-footer">
 				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
@@ -160,11 +170,11 @@
 			  </div>
 			  <div class="col-sm-auto">
 			    <div class="card">
-				    <img class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
+				    <img id="img-product-04" class="card-img-top" src="http://via.placeholder.com/230x125" alt="Card image cap">
 				    <div class="card-body">
-				      <p><i class="fa fa-beer"></i>&nbsp;Cerveza</p>
-				      <p><i class="fa fa-info"></i>&nbsp;Graduacion</p>
-				      <p><i class="fa fa-home"></i>&nbsp;Fabrica</p>
+				      <p><i class="fa fa-beer"></i>&nbsp;<span id="text-product-name-04">Cerveza</span></p>
+				      <p><i class="fa fa-info"></i>&nbsp;<span id="text-product-alcohol-04">Graduacion</span></p>
+				      <p><i class="fa fa-home"></i>&nbsp;<span id="text-product-brewer-04">Fabrica</span></p>
 				    </div>
 				    <div class="card-footer">
 				    <div class="precioContenedor float-left">desde<span>xxx €</span></div>
@@ -181,6 +191,6 @@
       		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis pharetra purus, eu tempor ligula cursus id.</p>
       	</div>
       </footer> <!-- /FOOTER -->
-
+	<script src="src/javascript/logic.js" type="text/javascript"></script>
   </body>
 </html>
